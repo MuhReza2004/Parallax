@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.parallax{
+    height: 100vh;
+    background-size: cover;
+    background-position: auto;
+    background-attachment: fixed;
+    
+}
+
+.intro{
+background-image: url('src/assets/1.jpg');
+}
+
+
+.content{
+    background-image: url('src/assets/2.jpg');
+}
+
+.footer{
+    background-image: url('src/assets/3.jpg');
+}
+
+
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the left side of the navigation bar */
+.left {
+    float: left;
+    padding: 10px;
+    
+}
+
+/* Style the name of Wisma on the left */
+.wisma-name {
+    color: white;
+    font-size: 24px;
+}
+
+/* Style the right side of the navigation bar */
+.right {
+    float: right;
+    align-items: center;
+    display: flex;
+}
+
+/* Style the links on the right side */
+.right a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Style the links on hover */
+.right a:hover {
+    background-color: #e01a1a;
+    
+}
